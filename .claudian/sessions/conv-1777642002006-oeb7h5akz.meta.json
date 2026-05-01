@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777642002006-oeb7h5akz",
+  "providerId": "claude",
+  "title": "## 仓库审查报告\n\n### 概览\n\n这是一个基于 [Karpathy LLM Wiki 模式...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777642002022,
+  "updatedAt": 1777643371916,
+  "lastResponseAt": 1777643371915,
+  "sessionId": "ae4b757c-d6b1-4d76-9472-19067f37e8f0",
+  "providerState": {
+    "providerSessionId": "ae4b757c-d6b1-4d76-9472-19067f37e8f0"
+  },
+  "currentNote": "README.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 2044,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 94464,
+    "contextWindow": 200000,
+    "contextTokens": 96508,
+    "percentage": 48,
+    "contextWindowIsAuthoritative": true
+  }
+}
