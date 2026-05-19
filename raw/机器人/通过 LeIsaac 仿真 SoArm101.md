@@ -10,6 +10,7 @@ tags:
 ---
 ## 简介
 
+
 本wiki将遵循 LeIsaac 的文档，展示如何在 IsaacLab 中通过 LeIsaac 远程操作 SOArm101 机械臂。此外，我们还将展示如何使用在 IsaacLab 中收集的数据，在 IsaacLab 模拟环境中部署经过微调的 NVIDIA Isaac GR00T N1.5 模型。本维基中使用的主要项目包括：
 
 - [LeIsaac](https://github.com/LightwheelAI/leisaac) ：在 IsaacLab 中使用 SO101Leader（LeRobot）提供远程操作功能，包括数据收集、数据转换以及后续策略训练。

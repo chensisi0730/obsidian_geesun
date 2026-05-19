@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp raw/Clippings/*.md raw/机器人/ && echo \"Copied to raw/机器人/\")"
+    ]
+  }
+}

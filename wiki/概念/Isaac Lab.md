@@ -4,10 +4,12 @@ type: concept
 tags: [概念, 机器人, 仿真, 教程]
 aliases: [Isaac Lab, NVIDIA Isaac Lab, NVIDIA Isaac™ Lab]
 created: 2026-05-01
-updated: 2026-05-01
+updated: 2026-05-02
 sources:
   - "[[资料摘要：SOArm101 仿真与机械臂策略训练]]"
-related_concepts: [机器人学习, 仿真环境]
+  - "[[资料摘要：Isaac Lab 训练 LeRobot SO-101 机械臂]]"
+  - "[[资料摘要：资料摘要：LeIsaac EnvHub 集成]]"
+related_concepts: [机器人学习, 仿真环境, RSL-RL, EnvHub]
 confidence: high
 ---
 
@@ -32,4 +34,5 @@ Isaac Lab 提供标准化的仿真环境、任务定义和训练接口，让开�
 - [[LeIsaac]]
 - [[GR00T N1.5]]
 - [[资料摘要：SOArm101 仿真与机械臂策略训练]]
+- [[资料摘要：资料摘要：LeIsaac EnvHub 集成]]
 - [[Wiki 目录]]

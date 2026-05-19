@@ -2,7 +2,7 @@
 title: Wiki 目录
 tags: [目录, 导航]
 created: 2026-05-01
-updated: 2026-05-01
+updated: 2026-05-02
 ---
 
 # Wiki 目录
@@ -22,7 +22,11 @@ updated: 2026-05-01
 - [[RLHF（基于人类反馈的强化学习）]]
 - [[Isaac Lab]]
 - [[GR00T N1.5]]
+- [[LeRobot]]
+- [[VLA（视觉-语言-动作模型）]]
+- [[RECAP（优势条件化强化学习）]]
 - [[遥操作（Teleoperation）]]
+- [[流匹配（Flow Matching）]]
 
 ## 资料摘要
 
@@ -31,6 +35,18 @@ updated: 2026-05-01
 - [[资料摘要：RLHF中的PPO拆解]]
 - [[资料摘要：PPO、DPO、GRPO强化学习]]
 - [[资料摘要：SOArm101 仿真与机械臂策略训练]]
+- [[资料摘要：Isaac Lab 训练 LeRobot SO-101 机械臂]]
+- [[资料摘要：LeRobot 官方教程]]
+- [[资料摘要：SO-ARM10x 机械臂教程]]
+- [[资料摘要：π*0.6 真实世界强化学习]]
+- [[资料摘要：LeRobot 框架架构剖析]]
+- [[资料摘要：具身智能学习路线]]
+- [[资料摘要：SmolVLA 轻量级 VLA 模型]]
+- [[资料摘要：LeRobot系列专栏索引]]
+- [[资料摘要：LeIsaac EnvHub 集成]]
+- [[资料摘要：LeRobot π0 封装剖析]]
+- [[资料摘要：宇树 LeRobot 训练框架]]
+- [[资料摘要：UnifoLM-WMA-0 世界模型]]
 
 ## 综合分析
 
