@@ -9,6 +9,7 @@ sources:
   - "[[资料摘要：SOArm101 仿真与机械臂策略训练]]"
   - "[[资料摘要：Isaac Lab 训练 LeRobot SO-101 机械臂]]"
   - "[[资料摘要：资料摘要：LeIsaac EnvHub 集成]]"
+  - "[[资料摘要：资料摘要：Isaac Lab 快速入门指南]]"
 related_concepts: [机器人学习, 仿真环境, RSL-RL, EnvHub]
 confidence: high
 ---
@@ -27,6 +28,9 @@ Isaac Lab 提供标准化的仿真环境、任务定义和训练接口，让开�
 - **任务系统**：支持自定义任务（如 PickOrange），含成功/失败判定
 - **相机支持**：仿真环境中集成 RGB 相机用于视觉策略训练
 - **多环境并行**：支持 `--num_envs` 参数并行运行多个仿真环境
+- **两大工作流**：DirectRLEnv（快速原型）和 ManagerBasedRLEnv（模块化复杂项目）
+- **项目模板生成器**：`./isaaclab.sh --new` 快速生成项目骨架
+- **配置系统**：通过 `@configclass` 装饰器统一管理训练参数，支持 CLI 覆盖
 
 ## 相关
 
@@ -35,4 +39,6 @@ Isaac Lab 提供标准化的仿真环境、任务定义和训练接口，让开�
 - [[GR00T N1.5]]
 - [[资料摘要：SOArm101 仿真与机械臂策略训练]]
 - [[资料摘要：资料摘要：LeIsaac EnvHub 集成]]
+- [[资料摘要：资料摘要：Isaac Lab 快速入门指南]]
+- [[OpenARM]]
 - [[Wiki 目录]]

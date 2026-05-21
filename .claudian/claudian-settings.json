@@ -1,8 +1,8 @@
 {
   "userName": "",
   "permissionMode": "normal",
-  "model": "opus",
-  "thinkingBudget": "medium",
+  "model": "haiku",
+  "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -31,7 +31,7 @@
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "customModels": "",
-      "lastModel": "opus",
+      "lastModel": "haiku",
       "environmentVariables": "",
       "environmentHash": ""
     },
@@ -52,7 +52,7 @@
     "opencode": {
       "cliPath": "",
       "cliPathsByHost": {},
-      "enabled": false,
+      "enabled": true,
       "environmentHash": "",
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
@@ -63,14 +63,14 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "opus"
+    "claude": "haiku"
   },
   "savedProviderEffort": {
     "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "medium"
+    "claude": "off"
   },
   "savedProviderPermissionMode": {
     "claude": "normal"

@@ -7,6 +7,7 @@ created: 2026-05-01
 updated: 2026-05-01
 sources:
   - "[[资料摘要：SOArm101 仿真与机械臂策略训练]]"
+  - "[[资料摘要：资料摘要：OpenARM 产品介绍]]"
 related_concepts: [机器人学习, 仿真到现实]
 confidence: medium
 ---
@@ -17,7 +18,7 @@ confidence: medium
 
 ## 是什么
 
-遥操作允许人类操作员使用领导臂（Leader Arm，如 SO-ARM101）远程控制从属机器人或仿真环境中的机器人，实时采集人类示教的动作数据。这些数据可用于训练机器人策略模型。
+遥操作允许人类操作员使用领导臂（Leader Arm，如 [[OpenARM]] 或 SO-ARM101）远程控制从属机器人或仿真环境中的机器人，实时采集人类示教的动作数据。这些数据可用于训练机器人策略模型。
 
 ## 为什么重要
 
@@ -41,5 +42,7 @@ confidence: medium
 - [[LeIsaac]]
 - [[Isaac Lab]]
 - [[ACT（动作分块变换器）]]
+- [[OpenARM]]
 - [[资料摘要：SOArm101 仿真与机械臂策略训练]]
+- [[资料摘要：资料摘要：OpenARM 产品介绍]]
 - [[Wiki 目录]]

@@ -4,21 +4,20 @@
   "title": "## 仓库审查报告\n\n### 概览\n\n这是一个基于 [Karpathy LLM Wiki 模式...",
   "titleGenerationStatus": "success",
   "createdAt": 1777642002022,
-  "updatedAt": 1779163246218,
-  "lastResponseAt": 1779163246218,
+  "updatedAt": 1779328545396,
+  "lastResponseAt": 1779328545395,
   "sessionId": "ae4b757c-d6b1-4d76-9472-19067f37e8f0",
   "providerState": {
     "providerSessionId": "ae4b757c-d6b1-4d76-9472-19067f37e8f0"
   },
-  "currentNote": "README.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 2739,
+    "inputTokens": 134,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 93952,
+    "cacheReadInputTokens": 121472,
     "contextWindow": 200000,
-    "contextTokens": 96691,
-    "percentage": 48,
+    "contextTokens": 121606,
+    "percentage": 61,
     "contextWindowIsAuthoritative": true
   }
 }

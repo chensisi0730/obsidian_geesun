@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cp raw/Clippings/*.md raw/机器人/ && echo \"Copied to raw/机器人/\")"
+      "Bash(cp raw/Clippings/*.md raw/机器人/ && echo \"Copied to raw/机器人/\")",
+      "Bash(find raw/ -type f -name *.md)"
     ]
   }
 }

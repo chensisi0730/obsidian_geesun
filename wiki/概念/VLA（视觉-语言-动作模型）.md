@@ -10,6 +10,7 @@ sources:
   - "[[资料摘要：LeRobot 框架架构剖析]]"
   - "[[资料摘要：SmolVLA 轻量级 VLA 模型]]"
   - "[[资料摘要：资料摘要：LeRobot π0 封装剖析]]"
+  - "[[资料摘要：资料摘要：OpenPI π0 模型家族]]"
 related_concepts: [多模态学习, 机器人控制, 模仿学习, 轻量级部署, 流匹配]
 confidence: high
 ---
@@ -45,7 +46,9 @@ flowchart LR
 
 | 模型 | 团队 | 特点 |
 |------|------|------|
-| π0 / π*0.6 | Physical Intelligence | 真实世界强化学习 |
+| π0 / π*0.6 | Physical Intelligence | 流匹配 + 真实世界 RL |
+| π0-FAST | Physical Intelligence | FAST 动作分词器，训练快 5x |
+| π0.5 | Physical Intelligence | 知识隔离，开放世界泛化 |
 | GR00T N1.5 | NVIDIA | 通用人形机器人 |
 | RT-1 / RT-2 | Google | 机器人 Transformer |
 | OpenVLA | 开源社区 | 开源 VLA 基础模型 |
@@ -71,4 +74,7 @@ flowchart LR
 - [[ACT（动作分块变换器）]]
 - [[流匹配（Flow Matching）]]
 - [[资料摘要：π*0.6 真实世界强化学习]]
+- [[资料摘要：资料摘要：OpenPI π0 模型家族]]
+- [[资料摘要：资料摘要：LeRobot π0 封装剖析]]
+- [[OpenARM]]
 - [[Wiki 目录]]
