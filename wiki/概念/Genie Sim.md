@@ -7,7 +7,7 @@ created: 2026-05-20
 updated: 2026-05-20
 sources:
   - "[[资料摘要：资料摘要：智元 Genie Sim 3.0 仿真平台]]"
-related_concepts: [仿真环境, Isaac Lab, VLA, RLinf, Sim2Real]
+related_concepts: [仿真环境, Isaac Lab, Genesis, VLA, RLinf, Sim2Real]
 confidence: medium
 ---
 
@@ -30,20 +30,23 @@ Genie Sim 是智元团队的仿真平台，聚焦"场景—数据—评测"三�
 - **标准 Gym 接口**：与 RLinf 及其他社区算法生态兼容
 - **开源模型评分**：提供主流模型在各 benchmark 下的全景能力画像
 
-## 对比 Isaac Lab
+## 与其他平台的对比
 
-| 维度 | Isaac Lab | Genie Sim |
-|------|-----------|-----------|
-| 开发方 | NVIDIA | 智元机器人 |
-| 场景生成 | 手动搭建（USD） | 自然语言自动生成 |
-| 评测基准 | 无内置 | 五大维度 Benchmark |
-| RL 集成 | RSL-RL / skrl | RLinf |
-| 物理引擎 | PhysX（Omniverse） | 自研双引擎解耦 |
+| 维度 | Isaac Lab | Genie Sim | Genesis |
+|------|-----------|-----------|---------|
+| 开发方 | NVIDIA | 智元机器人 | 开源（19 单位） |
+| 场景生成 | 手动搭建（USD） | 自然语言自动生成 | 生成式 AI 自动生成 |
+| 评测基准 | 无内置 | 五大维度 Benchmark | 无内置 |
+| RL 集成 | RSL-RL / skrl | RLinf | 原生可微分+RL |
+| 物理引擎 | PhysX（Omniverse） | 自研双引擎解耦 | 自研通用引擎 |
+| 差异化 | 生态完善，工业级 | NL→3D，Sim2Real<10% | 10-80x 加速，可微分 |
 
 ## 相关
 
 - [[Isaac Lab]]
+- [[Genesis]]
 - [[VLA（视觉-语言-动作模型）]]
 - [[遥操作（Teleoperation）]]
 - [[资料摘要：资料摘要：智元 Genie Sim 3.0 仿真平台]]
+- [[资料摘要：资料摘要：7大仿真平台对比]]
 - [[Wiki 目录]]

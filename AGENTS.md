@@ -1,4 +1,4 @@
-# my-wiki-llm — LLM Wiki Schema
+![[CATL 看机双足人形机器人开发规划]]# my-wiki-llm — LLM Wiki Schema
 
 > 基于 [Andrej Karpathy 的 LLM Wiki 模式](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 构建。
 > 本文件定义 LLM 如何维护这个知识库。
@@ -124,6 +124,7 @@ media: article | paper | video     # 可选，仅 source 类型页面
 1. **完整阅读**源文档。
 2. **与用户讨论**关键要点，确认需要强调的内容。
 3. **创建**资料摘要页到 `wiki/资料摘要/`，包含 frontmatter。
+4. 翻译为简体中文
 
 #### URL 直接摄取
 
@@ -192,7 +193,8 @@ media: article | paper | video     # 可选，仅 source 类型页面
 3. **综合回答**并附 `[[page]]` 引用。
 4. **若回答有实质价值**，建议保存为新 wiki 页面（对比、综合等）。
 5. **若 wiki 缺少相关信息**，明确说明 — 然后检查原始资料或建议需要摄取的来源。
-6. **追加**到 `wiki/操作日志.md`：
+6. 搜索原始资料中的英文资料，同时需要翻译成为中文。
+7. **追加**到 `wiki/操作日志.md`：
     ```
     ## [YYYY-MM-DD] query | 简要问题
     - 查阅页面：列表

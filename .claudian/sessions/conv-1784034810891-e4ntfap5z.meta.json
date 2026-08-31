@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784034810891-e4ntfap5z",
+  "providerId": "claude",
+  "title": "摄取",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1784034810895,
+  "updatedAt": 1784035046540,
+  "lastResponseAt": 1784035006156,
+  "sessionId": "f789c3da-cf89-4737-85ac-305db04c0d0d",
+  "providerState": {
+    "providerSessionId": "f789c3da-cf89-4737-85ac-305db04c0d0d"
+  },
+  "currentNote": "README.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

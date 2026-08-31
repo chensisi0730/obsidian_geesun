@@ -1,0 +1,21 @@
+{
+  "id": "conv-1784035169155-0ledaot4o",
+  "providerId": "claude",
+  "title": "7月14日 21:19",
+  "createdAt": 1784035169155,
+  "updatedAt": 1784035216579,
+  "lastResponseAt": 1784035173352,
+  "sessionId": "3eb7e572-1bc6-42aa-9f18-eb0bca624b0a",
+  "providerState": {
+    "providerSessionId": "3eb7e572-1bc6-42aa-9f18-eb0bca624b0a"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
