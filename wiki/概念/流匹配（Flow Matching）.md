@@ -5,8 +5,8 @@ tags: [概念, 机器人, 生成模型, 基础]
 created: 2026-05-19
 updated: 2026-05-19
 sources:
-  - "[[资料摘要：资料摘要：SmolVLA 轻量级 VLA 模型]]"
-  - "[[资料摘要：资料摘要：LeRobot π0 封装剖析]]"
+  - "[[资料摘要：SmolVLA 轻量级 VLA 模型]]"
+  - "[[资料摘要：LeRobot π0 封装剖析]]"
 confidence: medium
 related_concepts:
   - Diffusion Policy

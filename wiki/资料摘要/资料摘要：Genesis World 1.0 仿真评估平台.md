@@ -6,7 +6,7 @@ created: 2026-06-09
 updated: 2026-06-09
 sources:
   - "[[资料摘要：Genesis 物理引擎]]"
-  - "[[概念：Genesis]]"
+  - "[[Genesis]]"
 confidence: high
 source_url: https://www.genesis-ai.world/blog/simulation-for-scalable-robotics
 media: article
@@ -68,7 +68,7 @@ Genesis 没有直接走「仿真数据生成」路线，而是先攻克评估可
 
 ## 相关
 
-- [[概念：Genesis]]
+- [[Genesis]]
 - [[资料摘要：Genesis 物理引擎]]
 - [[Isaac Lab]]
 - [[NVIDIA Cosmos]]

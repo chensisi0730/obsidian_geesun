@@ -6,7 +6,7 @@ aliases: [Genie Sim, 智元仿真平台, Genie Sim 3.0]
 created: 2026-05-20
 updated: 2026-05-20
 sources:
-  - "[[资料摘要：资料摘要：智元 Genie Sim 3.0 仿真平台]]"
+  - "[[资料摘要：智元 Genie Sim 3.0 仿真平台]]"
 related_concepts: [仿真环境, Isaac Lab, Genesis, VLA, RLinf, Sim2Real]
 confidence: medium
 ---
@@ -47,6 +47,6 @@ Genie Sim 是智元团队的仿真平台，聚焦"场景—数据—评测"三�
 - [[Genesis]]
 - [[VLA（视觉-语言-动作模型）]]
 - [[遥操作（Teleoperation）]]
-- [[资料摘要：资料摘要：智元 Genie Sim 3.0 仿真平台]]
-- [[资料摘要：资料摘要：7大仿真平台对比]]
+- [[资料摘要：智元 Genie Sim 3.0 仿真平台]]
+- [[资料摘要：7大仿真平台对比]]
 - [[Wiki 目录]]

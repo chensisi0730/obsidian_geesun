@@ -8,11 +8,11 @@ updated: 2026-05-02
 sources:
   - "[[资料摘要：SOArm101 仿真与机械臂策略训练]]"
   - "[[资料摘要：Isaac Lab 训练 LeRobot SO-101 机械臂]]"
-  - "[[资料摘要：资料摘要：LeIsaac EnvHub 集成]]"
-  - "[[资料摘要：资料摘要：Isaac Lab 快速入门指南]]"
-  - "[[资料摘要：资料摘要：7大仿真平台对比]]"
-  - "[[资料摘要：资料摘要：Genesis 物理引擎]]"
-  - "[[资料摘要：资料摘要：宇树 RL Lab（Unitree IsaacLab 训练框架）]]"
+  - "[[资料摘要：LeIsaac EnvHub 集成]]"
+  - "[[资料摘要：Isaac Lab 快速入门指南]]"
+  - "[[资料摘要：7大仿真平台对比]]"
+  - "[[资料摘要：Genesis 物理引擎]]"
+  - "[[资料摘要：宇树 RL Lab（Unitree IsaacLab 训练框架）]]"
 related_concepts: [机器人学习, 仿真环境, RSL-RL, EnvHub, Genesis, NVIDIA Cosmos]
 confidence: high
 ---
@@ -49,10 +49,10 @@ Isaac Lab 提供标准化的仿真环境、任务定义和训练接口，让开�
 - [[Genesis]]
 - [[NVIDIA Cosmos]]
 - [[资料摘要：SOArm101 仿真与机械臂策略训练]]
-- [[资料摘要：资料摘要：LeIsaac EnvHub 集成]]
-- [[资料摘要：资料摘要：Isaac Lab 快速入门指南]]
-- [[资料摘要：资料摘要：7大仿真平台对比]]
-- [[资料摘要：资料摘要：Genesis 物理引擎]]
-- [[资料摘要：资料摘要：宇树 RL Lab（Unitree IsaacLab 训练框架）]]
+- [[资料摘要：LeIsaac EnvHub 集成]]
+- [[资料摘要：Isaac Lab 快速入门指南]]
+- [[资料摘要：7大仿真平台对比]]
+- [[资料摘要：Genesis 物理引擎]]
+- [[资料摘要：宇树 RL Lab（Unitree IsaacLab 训练框架）]]
 - [[OpenARM]]
 - [[Wiki 目录]]

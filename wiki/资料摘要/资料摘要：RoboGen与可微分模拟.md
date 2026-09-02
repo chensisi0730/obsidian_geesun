@@ -88,8 +88,8 @@ RoboGen (全自动生成式模拟)
 
 - [[资料摘要：Genesis 物理引擎]]
 - [[资料摘要：机器人跑酷与数据来源]]
-- [[概念：可微分物理引擎（Differentiable Physics）]]
-- [[概念：Genesis]]
+- [[可微分物理引擎（Differentiable Physics）]]
+- [[Genesis]]
 - [[Isaac Lab]]
-- [[概念：PPO（近端策略优化）]]
+- [[PPO（近端策略优化）]]
 - [[Wiki 目录]]

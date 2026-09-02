@@ -59,8 +59,8 @@ Cosmos 3 针对 NVIDIA Blackwell GB200 / RTX PRO 6000 系列优化，实现训�
 
 ## 相关
 
-- [[概念：NVIDIA Cosmos]]
+- [[NVIDIA Cosmos]]
 - [[Isaac Lab]]
-- [[概念：VLA（视觉-语言-动作模型）]]
+- [[VLA（视觉-语言-动作模型）]]
 - [[资料摘要：Genesis 物理引擎]]
 - [[Wiki 目录]]

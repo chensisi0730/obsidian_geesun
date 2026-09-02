@@ -6,7 +6,7 @@ aliases: [OpenARM Gen1, enactic OpenARM, 泡泡具身, OpenArm, OpenSource Artif
 created: 2026-05-19
 updated: 2026-05-19
 sources:
-  - "[[资料摘要：资料摘要：OpenARM 产品介绍]]"
+  - "[[资料摘要：OpenARM 产品介绍]]"
 related_concepts: [遥操作, 模仿学习, Isaac Lab, LeRobot, SO-ARM101]
 confidence: high
 ---
@@ -53,6 +53,6 @@ OpenARM 是一个完全开源的人形机械臂平台，包含完整的 CAD 图�
 - [[Isaac Lab]]
 - [[LeRobot]]
 - [[ACT（动作分块变换器）]]
-- [[资料摘要：资料摘要：OpenARM 产品介绍]]
-- [[资料摘要：资料摘要：OpenPI π0 模型家族]]
+- [[资料摘要：OpenARM 产品介绍]]
+- [[资料摘要：OpenPI π0 模型家族]]
 - [[Wiki 目录]]

@@ -10,9 +10,9 @@ sources:
   - "[[资料摘要：SOArm101 仿真与机械臂策略训练]]"
   - "[[资料摘要：LeRobot 官方教程]]"
   - "[[资料摘要：LeRobot 框架架构剖析]]"
-  - "[[资料摘要：资料摘要：LeIsaac EnvHub 集成]]"
-  - "[[资料摘要：资料摘要：LeRobot π0 封装剖析]]"
-  - "[[资料摘要：资料摘要：宇树 LeRobot 训练框架]]"
+  - "[[资料摘要：LeIsaac EnvHub 集成]]"
+  - "[[资料摘要：LeRobot π0 封装剖析]]"
+  - "[[资料摘要：宇树 LeRobot 训练框架]]"
 related_concepts: [模仿学习, 机器人学习, Isaac Lab, EnvHub]
 confidence: high
 ---
@@ -65,6 +65,7 @@ flowchart LR
 - [[Isaac Lab]]
 - [[GR00T N1.5]]
 - [[ACT（动作分块变换器）]]
+- [[模仿学习（Imitation Learning）]] — 框架策略的训练范式（BC / Diffusion）
 - [[遥操作（Teleoperation）]]
 - [[资料摘要：Isaac Lab 训练 LeRobot SO-101 机械臂]]
 - [[资料摘要：SOArm101 仿真与机械臂策略训练]]

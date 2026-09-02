@@ -40,6 +40,7 @@ ACT 由 ALOHA 团队于 2023 年 4 月提出，其核心是将动作预测从单
 
 ## 相关
 
+- [[模仿学习（Imitation Learning）]] — ACT 所属的训练范式
 - [[PPO（近端策略优化）]]
 - [[资料摘要：ACT算法精讲]]
 - [[遥操作（Teleoperation）]]

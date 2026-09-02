@@ -5,8 +5,8 @@ tags: [机器人, RL, Isaac Lab, 宇树, Unitree, 基础设施]
 created: 2026-06-09
 updated: 2026-06-09
 sources:
-  - "[[概念：Isaac Lab]]"
-  - "[[概念：LeRobot]]"
+  - "[[Isaac Lab]]"
+  - "[[LeRobot]]"
 confidence: high
 source_url: https://github.com/unitreerobotics/unitree_rl_lab
 media: article
@@ -74,6 +74,6 @@ flowchart LR
 
 - [[Isaac Lab]]
 - [[LeRobot]]
-- [[资料摘要：资料摘要：宇树 LeRobot 训练框架]]
+- [[资料摘要：宇树 LeRobot 训练框架]]
 - [[遥操作（Teleoperation）]]
 - [[Wiki 目录]]

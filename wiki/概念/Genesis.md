@@ -9,7 +9,7 @@ sources:
   - "[[资料摘要：Genesis 物理引擎]]"
   - "[[资料摘要：RoboGen与可微分模拟]]"
   - "[[资料摘要：7大仿真平台对比]]"
-  - "[[资料摘要：资料摘要：Genesis World 1.0 仿真评估平台]]"
+  - "[[资料摘要：Genesis World 1.0 仿真评估平台]]"
 related_concepts:
   - "[[可微分物理引擎（Differentiable Physics）]]"
   - "[[Isaac Lab]]"
@@ -131,6 +131,6 @@ Genesis AI 在 2026 年正式发布 **Genesis World 1.0**，将评估而非数�
 - [[Genie Sim]]
 - [[NVIDIA Cosmos]]
 - [[资料摘要：Genesis 物理引擎]]
-- [[资料摘要：资料摘要：Genesis World 1.0 仿真评估平台]]
+- [[资料摘要：Genesis World 1.0 仿真评估平台]]
 - [[资料摘要：RoboGen与可微分模拟]]
 - [[Wiki 目录]]
