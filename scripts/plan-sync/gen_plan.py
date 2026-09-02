@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import os, sys, math
+import os, sys, math, re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from datetime import date
 from pd1 import ROWS_P1, ROWS_P2
@@ -16,6 +16,13 @@ OUT = os.path.join(REPO_ROOT, "wiki/机器人/CATL 看机双足人形机器人�
 ROWS = ROWS_P1 + ROWS_P2 + ROWS_P3 + ROWS_P4 + ROWS_P5 + ROWS_P6
 PROGRESS_OPTS = ["0%", "10%", "25%", "50%", "75%", "90%", "100%"]
 STATUS_OPTS = ["未关闭", "缓解中", "已关闭"]
+
+OWNER_MAP = {"A": "朱勇(A)", "B": "陈斯斯(B)", "C": "王朝(C)", "D": "杨海宾(D)", "E": "周子平(E)"}
+OWNER_OPTS = list(OWNER_MAP.values()) + ["结构工程师（外部）"]
+
+def fmt_owner(owner):
+    """责任人代号 → 名字(代号)；多人组合保留原结构"""
+    return re.sub(r"(?<![0-9A-Za-z])([ABCDE])(?![0-9A-Za-z])", lambda m: OWNER_MAP[m.group(1)], owner or "")
 
 HDR_FILL = PatternFill("solid", fgColor="4472C4")
 MIL_FILL = PatternFill("solid", fgColor="FFF2CC")
@@ -66,7 +73,8 @@ r = HR + 1
 for row in ROWS:
     no, phase, task, ds, de, owner, note, risk, rid = row
     is_mil = no.endswith("-M")
-    values = [no, phase, task, date.fromisoformat(ds), date.fromisoformat(de), owner,
+    owner_disp = fmt_owner(owner)
+    values = [no, phase, task, date.fromisoformat(ds), date.fromisoformat(de), owner_disp,
               note or None, risk or None, rid or None, "未开始", PROGRESS_OPTS[0]]
     for c, v in enumerate(values, 1):
         cell = ws.cell(row=r, column=c, value=v)
@@ -82,7 +90,7 @@ for row in ROWS:
             cell.fill = MIL_FILL
             if c == 3:
                 cell.font = Font(bold=True)
-    ws.row_dimensions[r].height = est_height([(task, widths[2]), (note or "", widths[6]), (risk or "", widths[7])])
+    ws.row_dimensions[r].height = est_height([(task, widths[2]), (owner_disp, widths[5]), (note or "", widths[6]), (risk or "", widths[7])])
     r += 1
 
 last = r - 1
@@ -93,6 +101,11 @@ dv = DataValidation(type="list", formula1='"' + ",".join(PROGRESS_OPTS) + '"', a
                     prompt="从下拉列表选择：" + " / ".join(PROGRESS_OPTS))
 ws.add_data_validation(dv)
 dv.add(f"K{HR+1}:K{last}")
+dvf = DataValidation(type="list", formula1='"' + ",".join(OWNER_OPTS) + '"', allow_blank=True,
+                     showInputMessage=True, promptTitle="责任人",
+                     prompt="从下拉列表选择（名字(代号)）：" + " / ".join(OWNER_OPTS))
+ws.add_data_validation(dvf)
+dvf.add(f"F{HR+1}:F{last}")
 
 # ---------- Sheet 2：风险登记表 ----------
 ws2 = wb.create_sheet("风险登记表")
@@ -139,7 +152,7 @@ wbv = openpyxl.load_workbook(OUT)
 for s in wbv.worksheets:
     print(f"sheet={s.title} rows={s.max_row} cols={s.max_column}")
 ws1 = wbv["开发计划"]
-print("K4 =", ws1["K4"].value, "| D4 =", ws1["D4"].value, "| E4 =", ws1["E4"].value)
+print("F4 =", ws1["F4"].value, "| F8 =", ws1["F8"].value, "| K4 =", ws1["K4"].value, "| D4 =", ws1["D4"].value, "| E4 =", ws1["E4"].value)
 dvs = ws1.data_validations.dataValidation
 print("devplan DV count:", len(dvs), "| range:", [str(d.sqref) for d in dvs], "| formula:", [d.formula1 for d in dvs])
 ws2v = wbv["风险登记表"]
